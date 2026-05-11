@@ -614,7 +614,7 @@ export default function NewsDashboard({
       </div>
 
       <footer style={{ borderTop: `0.5px solid ${dark ? "rgba(255,255,255,0.06)" : "rgba(0,0,0,0.06)"}`, padding: "32px 24px", textAlign: "center" }}>
-        <p style={{ fontSize: 12, color: muted }}>Powered by Gemini AI · Data via NewsData.io</p>
+        <p style={{ fontSize: 12, color: muted }}>Data via NewsData.io</p>
       </footer>
 
       {modalArticle && (

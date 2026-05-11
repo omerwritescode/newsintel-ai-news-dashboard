@@ -15,7 +15,7 @@ async function getArticles() {
   }
 
   return data;
-}
+} 
 
 export default async function Home() {
   const articles = await getArticles();
